@@ -11,7 +11,7 @@ The goal of this library is to give the ability to manage in simple way the acce
 
 ## How to setup
 ```
-composer require "dmakome/access-manager"
+composer require "ccvf2s/access-manager"
 ```
 
 ## How to use it
