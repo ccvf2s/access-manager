@@ -52,7 +52,7 @@ ACCESS:
 
 ## Overriding logic
 
-The library provide some interfaces if you want to provide your own logic:
+The library provides some interfaces if you want to provide your own logic:
 
 - `UserProvider` for providing your user provider.
 - `PermissionProvider` for providing your list of permissions.
