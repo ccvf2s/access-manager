@@ -1,0 +1,33 @@
+{
+    "name": "dmakome/access-manager",
+    "description": "Helper for managing the roles of users permissions",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominick Makome",
+            "email": "makomedominick@gmaill.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/yaml": "^4.2",
+        "symfony/config": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ccvf2s\\AccessManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Ccvf2s\\AccessManager\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit -c phpunit.xml"
+    }
+}
