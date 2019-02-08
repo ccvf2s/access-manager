@@ -1,7 +1,7 @@
 {
     "name": "ccvf2s/access-manager",
     "description": "Helper for managing the roles of users permissions",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
