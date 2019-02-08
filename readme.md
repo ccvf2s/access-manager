@@ -11,7 +11,7 @@ The goal of this library is to give the ability to manage in simple way the acce
 
 ## How to setup
 ```
-composer require "ccvf2s/access-manager"
+composer require "ccvf2s/access-manager:^1.0"
 ```
 
 ## How to use it
