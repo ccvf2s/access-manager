@@ -28,7 +28,7 @@ class UserModel
    * @param mixed             $id
    * @param PermissionModel[] $permissions
    */
-  public function __construct($id, array $permissions)
+  public function __construct($id, array $permissions = [])
   {
     $this->id          = $id;
     $this->permissions = $permissions;
